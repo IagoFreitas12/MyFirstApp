@@ -43,7 +43,7 @@ function App() {
         </button>  
       </div>
 
-      {Object.keys(cep).length > 0 && (
+      {Object.keys(cep).length > 1 && (
         <main className="main">
           <h2 >CEP: {cep.cep}</h2>
 
